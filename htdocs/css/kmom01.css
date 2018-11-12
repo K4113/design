@@ -14,3 +14,15 @@
 .rm-navbar-max {
     display: none;
 }
+
+.region-header-col-1 {
+    float: left;
+}
+
+.region-header-col-2 {
+
+}
+
+.my-navbar  {
+    list-style-type: none;
+}
