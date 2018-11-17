@@ -14,7 +14,7 @@ views:
 Min me-sida i kursen design
 =========================
 
-[FIGURE src="image/me.jpg?w=250" class="right" caption="Bild på mig"]
+[FIGURE src="image/me.JPG?w=250" class="right" caption="Bild på mig"]
 
 Jag heter Fredrik Nelsson och är 30 år gammal. Jag bor Karlskrona tillsammans med min fru Rebecca. Till vardags jobbar jag på Telenor som systemtestare. Jag hoppas att kurspaketet webbprogramering och databaser ska hjälpa mig att utvecklas i min roll som testare och öppna upp nya möjligheter. Målet är att jag ska kunna hjälpa till mera med utvecklaraktiviteter i framtiden.
 
