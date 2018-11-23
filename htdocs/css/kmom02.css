@@ -4334,12 +4334,15 @@ body {
   max-width: 900px;
   margin: 10px auto;
   padding: 8px;
-  width: 980px;
   border-radius: 10px;
   font-size: 20px;
 }
 h1 {
   margin-left: auto;
+}
+img {
+  max-width: 100%;
+  height: auto;
 }
 /**
  * Layout style for general structure of header, navbar, main, footer
@@ -4355,29 +4358,52 @@ h1 {
 /**
  * General layout
  */
-/* My layout style */
-.region-header-col-1 {
-  display: none;
-}
 .right {
   float: right;
 }
 .left {
   float: left;
 }
+.outer-wrap {
+  padding-bottom: 10px;
+  max-width: 900px;
+}
+/* Navbar */
+.region-header-col-1 {
+  display: none;
+}
+.region-header {
+  background-color: beige;
+  text-align: center;
+}
+.my-navbar ul li {
+  background-color: white;
+}
+/* Footer */
 .footer-column {
   width: 33%;
   float: left;
   border: 1px solid black;
-}
-.outer-wrap {
-  max-width: 900px;
+  background-color: beige;
 }
 /**
  * Layout for responsive style through media queries.
  */
 @media screen and (max-width: 1500px) {
   .site-logo {
+    display: none;
+  }
+}
+@media screen and (max-width: 400px) {
+  .rm-small {
+    display: block;
+  }
+  .rm-desktop {
+    display: none;
+  }
+}
+@media screen and (min-width: 400px) {
+  .rm-small {
     display: none;
   }
 }
@@ -4639,25 +4665,6 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 }
 .rm-max.rm-swipe-right .rm-mobile {
   right: 0;
-}
-/**
- * Style for responsive menu
- */
-/**
-  * Example on media queries
-  */
-@media screen and (max-width: 680px) {
-  .rm-small {
-    display: block;
-  }
-  .rm-desktop {
-    display: none;
-  }
-}
-@media screen and (min-width: 680px) {
-  .rm-small {
-    display: none;
-  }
 }
 /**
  * My own settings, not currently in their own module.

@@ -110,6 +110,19 @@ h1 {
     display: none;
   }
 }
+@media screen and (max-width: 400px) {
+  .rm-small {
+    display: block;
+  }
+  .rm-desktop {
+    display: none;
+  }
+}
+@media screen and (min-width: 400px) {
+  .rm-small {
+    display: none;
+  }
+}
 /**
  * Show off the regions used in the website, to ease styling.
  */
