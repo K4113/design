@@ -1,7 +1,7 @@
 ---
 views:
     kursrepo:
-        region: sidebar-right
+        region: sidebar-left
         template: anax/v2/block/default
         data:
             meta:
@@ -15,7 +15,14 @@ views:
             meta:
                 type: single
                 route: block/om-redovisa
-#[FIGURE src="image/me.jpg?w=250" class="left", hspace="20 caption="Bild på mig"]
+    byline:
+        region: main
+        template: anax/v2/block/default
+        sort: 2
+        data:
+            meta:
+                type: single
+                route: block/byline
 ---
 Test
 =========================

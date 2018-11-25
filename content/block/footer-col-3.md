@@ -1,3 +1,3 @@
-#### Footer col 3
+#### Programmering
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Mycket av min fritid nu för tiden går till studier och programmering. Jag vill bli en duktig programmerar när jag blir stor.
