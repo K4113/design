@@ -10,7 +10,7 @@
 }
 
 //.sm-small do nothing, rm-deskop hide
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 470px) {
     .rm-small {
         display: block;
     }
@@ -33,9 +33,18 @@
     }
 }
 
-//not working, top right menu.
-@media screen and (min-width: 450px) {
-    .rm-small {
+// Remove sidebars
+@media screen and (max-width: 750px) {
+    .wrap-sidebar{
         display: none;
+    }
+}
+
+
+
+// FOOTER!!!!
+@media screen and (max-width: 900px) {
+    .footer-column {
+        width: 100%;
     }
 }

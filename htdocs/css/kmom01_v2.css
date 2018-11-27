@@ -110,7 +110,7 @@ h1 {
     display: none;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 470px) {
   .rm-small {
     display: block;
   }
@@ -128,9 +128,14 @@ h1 {
     padding: 0em;
   }
 }
-@media screen and (min-width: 450px) {
-  .rm-small {
+@media screen and (max-width: 750px) {
+  .wrap-sidebar {
     display: none;
+  }
+}
+@media screen and (max-width: 900px) {
+  .footer-column {
+    width: 100%;
   }
 }
 /**

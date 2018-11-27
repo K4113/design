@@ -73,16 +73,26 @@
     .floatLeft ();
 }
 
+.region-sidebar-left.has-sidebar-right,
+.region-sidebar-right.has-sidebar-left {
+    width: 20%;
+}
+
 .region-main {
     &.has-sidebar-left.has-sidebar-right {
-        width: 60%
+        width: 60%;
+        float: left;
     }
 }
 
-.region-sidebar-left,
-.region-sidebar-right {
-    width: 20%;
+.next {
+    text-align: right;
 }
+
+.previous {
+    text-align: left;
+}
+
 
 /* Footer */
 .footer-column {
