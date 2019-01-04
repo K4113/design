@@ -4,29 +4,23 @@
 @bgColorHtml: #D8BFD8;
 @bgColorBody: white;
 @colorBody: #333;
-@fontFamilyBody: serif;
+//@fontFamilyBody: serif;
 
 html {
     overflow-y: scroll;
-    //background-color: @bgColorHtml;
 }
 
 body {
     color: @colorBody;
     background-color: @bgColorBody;
-    font: 100.01%/1 @fontFamilyBody;
-    //max-width: 900px;
-    //margin: 10px auto;
-    //padding: 8px;
-    //border-radius: 10px;
-    font-size: 20px;
+    #desinax-hgrid.font(@fontSizeBody);
 }
 
-h1 {
-    //margin-left: auto;
-}
+// Activate grid and affect all typographic elements
+#desinax-hgrid.activateDefaultTypography();
 
-img {
-    //max-width: 100%;
-    //height: auto;
+// Show the grid
+.hgrid .inner-wrap {
+    @gridImage: "../img/magic-number-@{magicNumber}.png";
+    #desinax-hgrid.showGrid(@gridImage);
 }
