@@ -72,35 +72,92 @@ figure.figure-codepen {
 
 @import "layout/responsive_kmom04";
 
-@html: #FFE389; //längst ut
-@wrapp-all:#FFF5D5; // inanför "längst ut"
-@navbar: #FFF5D5; //Navbar
-@breadcrumb: #FFF5D5; //brödsmula
-@main: #FFF5D5; // main texterna
-@flash: #FFF5D5; //bakom huvudbilden
-@sidebar: #FFF5D5; //sidobarer
-@footer: #FFF5D5; //foten längst ner
+@html: #82B1FF; //längst ut
+@wrapp-all:#76E8D4; // inanför "längst ut"
+@navbar: #76E8D4; //Navbar
+@breadcrumb: #76E8D4; //brödsmula
+@main: #76E8D4; // main texterna
+@flash: #76E8D4; //bakom huvudbilden
+@sidebar: #76E8D4; //sidobarer
+@footer: #76E8D4; //foten längst ner
 
 
 //sträck under rubriker
-@colorH1BorderBottom: #7F7A6B;
-@colorH2BorderBottom: #7F7A6B;
-@colorH3BorderBottom: #7F7A6B;
-@colorH4BorderBottom: #7F7A6B;
-@colorH5BorderBottom: #7F7A6B;
-@colorH6BorderBottom: #7F7A6B;
+@colorH1BorderBottom: black;
+@colorH2BorderBottom: black;
+@colorH3BorderBottom: black;
+@colorH4BorderBottom: black;
+@colorH5BorderBottom: black;
+@colorH6BorderBottom: black;
 
 //finns på min leksida
-@colorBlockquoteBorder: #FFE389;
+@colorBlockquoteBorder: black;
 
-@borderColorCodeInline: #7F7A6B;
+@borderColorCodeInline: black;
 
-@bgColorCodeInline:     #CCB56E;
-@bgColorCodeBlock:      #CCB56E;
+@bgColorCodeInline:     #8EF4FF;
+@bgColorCodeBlock:      #8EF4FF;
 
-@colorTableRowHover:        #CCB56E;
+@colorTableRowHover:        #8EF4FF;
 
 //alla texter
-@colorBody: #7F7A6B;
+@colorBody: black;
 @fontFamilyHeadings: "Baskerville";
 @fontFamilyBody:     "Baskerville";
+
+img {
+   padding:3px 3px 3px 3px;
+   border:2px solid #000000;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+  color: grey;
+}
+
+.next {
+        width: 50%;
+        float: right;
+}
+
+ul {
+    list-style-type: square;
+}
+
+.breadcrumb-list ul {
+    list-style-type: none;
+}
+
+.breadcrumb-list li {
+    float: left;
+}
+
+.breadcrumb-list li::after {
+    content:  "  »   ";
+}
+
+.footer-column-x {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.site-footer {
+    padding-left: 35px;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+a img:hover{
+    position: relative;
+    top: 5px;
+}
+
+fieldset {
+    border-color: black;
+}

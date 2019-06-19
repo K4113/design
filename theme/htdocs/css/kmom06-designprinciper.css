@@ -4685,10 +4685,10 @@ figure.figure-codepen {
  */
 html {
   overflow-y: scroll;
-  background-color: #FFE389;
+  background-color: #82B1FF;
 }
 body {
-  color: #7F7A6B;
+  color: black;
   background-color: white;
   font: 16px/1.5 "Baskerville";
 }
@@ -4714,7 +4714,7 @@ h1 {
   font-size: 2.375em;
   line-height: 1.26315789;
   font-weight: normal;
-  border-bottom: 1px solid #7F7A6B;
+  border-bottom: 1px solid black;
   margin-bottom: 23px;
 }
 h1 ~ h1,
@@ -4733,7 +4733,7 @@ h2 {
   line-height: 1.6;
   font-weight: normal;
   margin-bottom: 23px;
-  border-bottom: 1px solid #7F7A6B;
+  border-bottom: 1px solid black;
 }
 h2 + h3 {
   margin-top: 24px;
@@ -4743,7 +4743,7 @@ h3 {
   line-height: 1.71428571;
   font-weight: normal;
   margin-bottom: 23px;
-  border-bottom: 1px solid #7F7A6B;
+  border-bottom: 1px solid black;
 }
 h3 + h4 {
   margin-top: 24px;
@@ -4753,7 +4753,7 @@ h4 {
   line-height: 1;
   font-weight: normal;
   margin-bottom: 23px;
-  border-bottom: 1px solid #7F7A6B;
+  border-bottom: 1px solid black;
 }
 h4 + h5 {
   margin-top: 24px;
@@ -4762,7 +4762,7 @@ h5 {
   font-size: 1.25em;
   line-height: 1.2;
   margin-bottom: 23px;
-  border-bottom: 1px solid #7F7A6B;
+  border-bottom: 1px solid black;
 }
 h5 + h6 {
   margin-top: 24px;
@@ -4771,7 +4771,7 @@ h6 {
   font-size: 1.25em;
   line-height: 1.2;
   margin-bottom: 23px;
-  border-bottom: 1px solid #7F7A6B;
+  border-bottom: 1px solid black;
 }
 p {
   margin-bottom: 24px;
@@ -4812,7 +4812,7 @@ sub {
   bottom: -0.25em;
 }
 blockquote {
-  border-left: 4px solid #FFE389;
+  border-left: 4px solid black;
   padding-left: 1em;
   margin-left: 0;
   margin-bottom: 24px;
@@ -4826,12 +4826,12 @@ samp,
 }
 code,
 samp {
-  border: 1px solid #7F7A6B;
+  border: 1px solid black;
   padding-left: 1px;
   padding-right: 1px;
 }
 code {
-  background-color: #CCB56E;
+  background-color: #8EF4FF;
 }
 pre,
 div.code,
@@ -4855,7 +4855,7 @@ pre code {
   padding-top: 12px;
   padding-bottom: 12px;
   padding-left: 0.5em;
-  background-color: #CCB56E;
+  background-color: #8EF4FF;
 }
 ul,
 ol {
@@ -4951,7 +4951,7 @@ article table tr,
 article table tr:hover,
 .table tr:hover,
 .table2 tr:hover {
-  color: #CCB56E;
+  color: #8EF4FF;
   background-color: #f6f6f6;
   box-shadow: 0 1px 0 #666;
 }
@@ -5012,19 +5012,19 @@ hr::after {
  * Variables
  */
 .wrap-all {
-  background-color: #FFF5D5;
+  background-color: #76E8D4;
 }
 .wrap-sidebar {
-  background-color: #FFF5D5;
+  background-color: #76E8D4;
 }
 .outer-wrap-header {
-  background-color: #FFF5D5;
+  background-color: #76E8D4;
 }
 .outer-wrap-flash {
-  background-color: #FFF5D5;
+  background-color: #76E8D4;
 }
 .outer-wrap-breadcrumb {
-  background-color: #FFF5D5;
+  background-color: #76E8D4;
 }
 /* Navbar */
 .site-logo {
@@ -5108,7 +5108,7 @@ hr::after {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   margin-left: 8.85416667%;
-  background-color: #FFF5D5;
+  background-color: #76E8D4;
 }
 .region-main.has-sidebar {
   margin-left: 0.52083333%;
@@ -5189,7 +5189,7 @@ hr::after {
   width: 32.29166667%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
-  background-color: #FFF5D5;
+  background-color: #76E8D4;
 }
 .site-footer {
   display: inline;
@@ -5302,4 +5302,48 @@ hr::after {
   .rm-desktop {
     display: none;
   }
+}
+img {
+  padding: 3px 3px 3px 3px;
+  border: 2px solid #000000;
+}
+a {
+  color: black;
+}
+a:hover {
+  color: grey;
+}
+.next {
+  width: 50%;
+  float: right;
+}
+ul {
+  list-style-type: square;
+}
+.breadcrumb-list ul {
+  list-style-type: none;
+}
+.breadcrumb-list li {
+  float: left;
+}
+.breadcrumb-list li::after {
+  content: "  »   ";
+}
+.footer-column-x {
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.site-footer {
+  padding-left: 35px;
+}
+img:hover {
+  transform: scale(1.1);
+}
+a img:hover {
+  position: relative;
+  top: 5px;
+}
+fieldset {
+  border-color: black;
 }
